@@ -1,8 +1,4 @@
-# gatsby-starter-stellar
-
-**This starter has been updated for Gatsby.js V2.**
-
-**The older V1 version of this starter can be found in the V1 branch**
+Website for Redbeard Productions
 
 Gatsby.js V2 starter based on the Stellar site template, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
 
