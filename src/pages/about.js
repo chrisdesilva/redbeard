@@ -22,7 +22,7 @@ class Generic extends React.Component {
             <h2>Favored Facilities</h2>
             <p>My Favored Facility is <a href="http://musiclanerecording.com/" target="_blank" rel="noopener noreferrer">Music Lane</a>. It is a ‘Home Studio” in the best possible way! The studio is packed full of pro gear, while still having the great relaxed vibe that you simply can’t get elsewhere. If you have questions about the studio and want to know if its right for you and your project; just contact me and I’ll arrange a tour!</p>
             <p>I’m not tied down to any one location, and if there is a specific studio that you’re itching to get into I can make all the arrangements. Austin is lucky to have a plethora of studios running the entire spectrum of gear, price, and atmosphere. I’ve you’re just interested in what is out there feel free to ask me questions, I’m well acquainted with the local options!</p>
-            <Link to="/">Take me back!</Link>
+            <Link to="/">Take me home!</Link>
           </section>
         </div>
       </Layout>

@@ -6,7 +6,7 @@ import Waypoint from 'react-waypoint'
 import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
-import pic01 from '../assets/images/pic01.jpg'
+import aaron from '../assets/images/aaron.jpg'
 
 class Index extends React.Component {
   constructor(props) {
@@ -45,38 +45,60 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Who Is This Red Beard?</h2>
+                  <h2>Who is this Red Beard?</h2>
                 </header>
                 <p>My name is Aaron Glemboski, and I am Red Beard. I am a producer/audio engineer currently located in Austin, TX. I look forward to working with you and creating something amazing!</p>
                 <ul className="actions">
                   <li><Link to="/about" className="button">Learn More</Link></li>
                 </ul>
               </div>
-              <span className="image"><img src={pic01} alt="" /></span>
+              <span className="image"><img src={aaron} alt="Aaron at the console" /></span>
             </div>
           </section>
 
-          <section id="first" className="main special">
+          <section id="demos" className="main special">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h2>Demos</h2>
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style1 fa-code"></span>
-                <h3>Ipsum consequat</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <span className="icon major style1 fa-music"></span>
+                <h3>The Banisters</h3>
+                <p>Blues-punk rock 'n' roll</p>
+                <a href="https://open.spotify.com/album/6MxEgVACdeJkVIe5kPlwyf?si=1qD7afR1R6ehc3uZ4qrTNA" target="_blank" rel="noopener no referrer">Check out Darwin, TX on Spotify</a>
               </li>
               <li>
-                <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <span className="icon major style1 fa-headphones"></span>
+                <h3>Jomo & The Possum Posse</h3>
+                <p>Honky-tonk bluegrass</p>
+                <a href="https://store.cdbaby.com/cd/jomothepossumposse" target="_blank" rel="noopener no referrer">Grab Local Motive from CDBaby</a>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <span className="icon major style1 fa-play"></span>
+                <h3>Tombstone Wasteland</h3>
+                <p>Southern rock trio</p>
+                <a href="http://www.tombstonewasteland.com/" target="_blank" rel="noopener no referrer">Listen to Don't Wanna Hear</a>
               </li>
             </ul>
+            <footer className="major">
+              <ul className="actions">
+                <li><Link to="/about" className="button">Learn More</Link></li>
+              </ul>
+            </footer>
+          </section>
+
+          <section id="rates" className="main special">
+            <header className="major">
+              <h2>Rates</h2>
+              <p>Please contact me for rates regarding your specific project.</p>
+            </header>
+            <p className="content">Every project entails different needs and requirements and therefore expenses vary vastly.
+
+            I’d be more than happy to talk to you and figure out what the pricing on your project will look like and work to get you the best possible product within your budget. We can work in a variety of studios at a variety of price points depending on your wants and needs.
+            
+             
+            
+            If you need a price quote for a Kickstarter/IndieGoGo, we can sit down and work out exactly what your project will cost, and then work within those parameters.</p>
             <footer className="major">
               <ul className="actions">
                 <li><Link to="/generic" className="button">Learn More</Link></li>
@@ -84,52 +106,14 @@ class Index extends React.Component {
             </footer>
           </section>
 
-          <section id="second" className="main special">
+          <section id="contact" className="main special">
             <header className="major">
-              <h2>Ipsum consequat</h2>
-              <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-              posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
-            </header>
-            <ul className="statistics">
-              <li className="style1">
-                <span className="icon fa-code-fork"></span>
-                <strong>5,120</strong> Etiam
-              </li>
-              <li className="style2">
-                <span className="icon fa-folder-open-o"></span>
-                <strong>8,192</strong> Magna
-              </li>
-              <li className="style3">
-                <span className="icon fa-signal"></span>
-                <strong>2,048</strong> Tempus
-              </li>
-              <li className="style4">
-                <span className="icon fa-laptop"></span>
-                <strong>4,096</strong> Aliquam
-              </li>
-              <li className="style5">
-                <span className="icon fa-diamond"></span>
-                <strong>1,024</strong> Nullam
-              </li>
-            </ul>
-            <p className="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
-            <footer className="major">
-              <ul className="actions">
-                <li><Link to="/generic" className="button">Learn More</Link></li>
-              </ul>
-            </footer>
-          </section>
-
-          <section id="cta" className="main special">
-            <header className="major">
-              <h2>Congue imperdiet</h2>
-              <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-              posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+              <h2>Contact</h2>
+              <p>Shoot me a text, call, or e-mail anytime. Let's grab a coffee and talk about your project!</p>
             </header>
             <footer className="major">
               <ul className="actions">
-                <li><Link to="/generic" className="button special">Get Started</Link></li>
-                <li><Link to="/generic" className="button">Learn More</Link></li>
+                <li><a href="mailto:therealredbeard@gmail.com" className="button special">Drop me a line</a></li>
               </ul>
             </footer>
           </section>
