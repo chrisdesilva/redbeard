@@ -1,4 +1,4 @@
-Website for Redbeard Productions
+Website for Redbeard Productions. Check it out at https://redbeard.netlify.com/
 
 Gatsby.js V2 starter based on the Stellar site template, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
 
