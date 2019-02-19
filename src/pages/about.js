@@ -6,12 +6,12 @@ import Layout from '../components/layout'
 import HeaderGeneric from '../components/HeaderGeneric'
 import banner from '../assets/images/redbanner.png'
 
-class Generic extends React.Component {
+class About extends React.Component {
   render() {
 
     return (
       <Layout>
-        <Helmet title="Generic Page Title" />
+        <Helmet title="About" />
         <HeaderGeneric />
         <div id="main">
           <section id="content" className="main">
@@ -22,6 +22,8 @@ class Generic extends React.Component {
             <h2>Favored Facilities</h2>
             <p>My Favored Facility is <a href="http://musiclanerecording.com/" target="_blank" rel="noopener noreferrer">Music Lane</a>. It is a ‘Home Studio” in the best possible way! The studio is packed full of pro gear, while still having the great relaxed vibe that you simply can’t get elsewhere. If you have questions about the studio and want to know if its right for you and your project; just contact me and I’ll arrange a tour!</p>
             <p>I’m not tied down to any one location, and if there is a specific studio that you’re itching to get into I can make all the arrangements. Austin is lucky to have a plethora of studios running the entire spectrum of gear, price, and atmosphere. I’ve you’re just interested in what is out there feel free to ask me questions, I’m well acquainted with the local options!</p>
+            <h2>Rates</h2>
+            <p>Please <a href="mailto:therealredbeard@gmail.com">contact me</a> for rates regarding your specific project. Unfortunately every project entails different needs and requirements and therefore expenses vary vastly. I’d be more than happy to talk to you and figure out what the pricing on your project will look like and work to get you the best possible product within your budget. We can work in a variety of studios at a variety of price points depending on your wants and needs. If you need a price quote for a Kickstarter/IndieGoGo, we can sit down and work out exactly what your project will cost, and then work within those parameters.</p>
             <Link to="/">Take me home!</Link>
           </section>
         </div>
@@ -30,4 +32,4 @@ class Generic extends React.Component {
   }
 }
 
-export default Generic
+export default About

@@ -7,6 +7,7 @@ import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 import aaron from '../assets/images/aaron.jpg'
+import MissQueen from '../assets/audio/Mississippi_Queen.wav'
 
 class Index extends React.Component {
   constructor(props) {
@@ -28,7 +29,7 @@ class Index extends React.Component {
 
     return (
       <Layout>
-        <Helmet title="Gatsby Starter - Stellar" />
+        <Helmet title="Redbeard Productions" />
 
         <Header />
 
@@ -56,28 +57,28 @@ class Index extends React.Component {
             </div>
           </section>
 
-          <section id="demos" className="main special">
+          <section id="clients" className="main special">
             <header className="major">
-              <h2>Demos</h2>
+              <h2>Clients</h2>
             </header>
             <ul className="features">
               <li>
                 <span className="icon major style1 fa-music"></span>
                 <h3>The Banisters</h3>
                 <p>Blues-punk rock 'n' roll</p>
-                <a href="https://open.spotify.com/album/6MxEgVACdeJkVIe5kPlwyf?si=1qD7afR1R6ehc3uZ4qrTNA" target="_blank" rel="noopener no referrer">Check out Darwin, TX on Spotify</a>
+                <a href="https://open.spotify.com/album/6MxEgVACdeJkVIe5kPlwyf?si=1qD7afR1R6ehc3uZ4qrTNA" target="_blank" rel="noopener noreferrer">Check out Darwin, TX on Spotify</a>
               </li>
               <li>
                 <span className="icon major style1 fa-headphones"></span>
                 <h3>Jomo & The Possum Posse</h3>
                 <p>Honky-tonk bluegrass</p>
-                <a href="https://store.cdbaby.com/cd/jomothepossumposse" target="_blank" rel="noopener no referrer">Grab Local Motive from CDBaby</a>
+                <a href="https://store.cdbaby.com/cd/jomothepossumposse" target="_blank" rel="noopener noreferrer">Grab Local Motive from CDBaby</a>
               </li>
               <li>
                 <span className="icon major style1 fa-play"></span>
                 <h3>Tombstone Wasteland</h3>
                 <p>Southern rock trio</p>
-                <a href="http://www.tombstonewasteland.com/" target="_blank" rel="noopener no referrer">Listen to Don't Wanna Hear</a>
+                <a href="http://www.tombstonewasteland.com/" target="_blank" rel="noopener noreferrer">Listen to Don't Wanna Hear</a>
               </li>
             </ul>
             <footer className="major">
@@ -87,21 +88,17 @@ class Index extends React.Component {
             </footer>
           </section>
 
-          <section id="rates" className="main special">
+          <section id="demos" className="main special">
             <header className="major">
-              <h2>Rates</h2>
-              <p>Please contact me for rates regarding your specific project.</p>
+              <h2>Demos</h2>
+              <p>Here are some of my recent projects. Enjoy!</p>
             </header>
-            <p className="content">Every project entails different needs and requirements and therefore expenses vary vastly.
-
-            I’d be more than happy to talk to you and figure out what the pricing on your project will look like and work to get you the best possible product within your budget. We can work in a variety of studios at a variety of price points depending on your wants and needs.
-            
-             
-            
-            If you need a price quote for a Kickstarter/IndieGoGo, we can sit down and work out exactly what your project will cost, and then work within those parameters.</p>
+            <div>
+              <audio ref="audio_tag" src={MissQueen} controls />
+            </div>
             <footer className="major">
               <ul className="actions">
-                <li><Link to="/generic" className="button">Learn More</Link></li>
+                <li><Link to="/about" className="button">Learn More</Link></li>
               </ul>
             </footer>
           </section>
