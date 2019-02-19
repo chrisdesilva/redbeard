@@ -7,7 +7,7 @@ import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 import aaron from '../assets/images/aaron.jpg'
-import MissQueen from '../assets/audio/Mississippi_Queen.wav'
+import MissQueen from '../assets/audio/Mississippi_Queen.mp3'
 
 class Index extends React.Component {
   constructor(props) {
